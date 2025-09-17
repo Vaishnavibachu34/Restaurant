@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(https://i.pinimg.com/736x/e2/2d/34/e22d34139fafc1e6f37a32c8a66ffe16.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.mission {
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.text2{
+    margin-top: 30px;
+    color: black;
+    font-size: 35px;
+}
+.values {
+    display: inline-block;
+    flex-direction: coloum;
+}
+.value_box {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+.value_box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px black;
+}
